@@ -1,13 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ngoding;
-
-/**
- *
- * @author Asus
- */
 public class Day74 {
+    public static void main(String[] args) {
+        int[][] array = {
+            {5,23},
+            {38,44},
+            {56,69}
+        };
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                System.out.print(array[i][j]);
+            }System.out.println();
+        }
+    
+    }
     
 }
